@@ -1,0 +1,9 @@
+function removeUrlAnchor(url){
+  // TODO: complete
+  hash = url.split('#')[0]
+  console.log(hash);
+  return hash;
+}
+
+
+removeUrlAnchor("www.ironhack.org/!@#$#test")
